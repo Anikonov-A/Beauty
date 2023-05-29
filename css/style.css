@@ -144,7 +144,7 @@
 
 .main_banner {
     background-image: url("../img/main_banner.jpg");
-    height: calc(100vh - 240px);
+    height: calc(100vh - 220px);
     background-size: cover;
 
 }
@@ -186,5 +186,57 @@
     border: 2px solid #FFFFFF;
     border-radius: 40px;
     padding: 12px 56px 13px 56px;
+}
+.offers{
+    background-color: #E5E5E5;
+}
+.offers h3{
+    padding-top: 80px;
+    font-family: 'robotobold', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 38px;
+}
+.chair_carts{
+    display: flex;
+    justify-content: space-between;
 
+}
+.chair_cart{
+    max-width: 255px;
+    padding: 25px 30px;
+    background: #FFFFFF;
+    text-align: center;
+}
+.chair_cart_img{
+    margin-bottom: 20px;
+}
+.chair_description{
+    font-family: 'robotoregular', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+}
+.chair_price{
+    font-family: 'robotoregular', sans-serif;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.btn_buy{
+    font-family: 'robotoregular', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    background: #F13C6E;
+    border-radius: 30px;
+    padding: 9px 53px;
+    text-decoration: none;
+    margin-bottom: 100px;
 }
