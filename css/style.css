@@ -187,10 +187,12 @@
     border-radius: 40px;
     padding: 12px 56px 13px 56px;
 }
-.offers{
+
+.offers {
     background-color: #E5E5E5;
 }
-.offers h3{
+
+.offers h3 {
     padding-top: 80px;
     font-family: 'robotobold', sans-serif;
     font-size: 24px;
@@ -198,21 +200,26 @@
     color: #000000;
     margin-bottom: 38px;
 }
-.chair_carts{
+
+.chair_carts {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 
 }
-.chair_cart{
+
+.chair_cart {
     max-width: 255px;
     padding: 25px 30px;
     background: #FFFFFF;
     text-align: center;
 }
-.chair_cart_img{
+
+.chair_cart_img {
     margin-bottom: 20px;
 }
-.chair_description{
+
+.chair_description {
     font-family: 'robotoregular', sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -220,7 +227,8 @@
     color: #333333;
     margin-bottom: 20px;
 }
-.chair_price{
+
+.chair_price {
     font-family: 'robotoregular', sans-serif;
     font-size: 21px;
     line-height: 25px;
@@ -229,7 +237,8 @@
     color: #000000;
     margin-bottom: 30px;
 }
-.btn_buy{
+
+.btn_buy {
     font-family: 'robotoregular', sans-serif;
     font-size: 14px;
     line-height: 16px;
@@ -239,5 +248,85 @@
     border-radius: 30px;
     padding: 9px 53px;
     text-decoration: none;
+}
+
+.bonus_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 100px;
+}
+
+.bonus_card, .store_card {
+
+    background: #F13C6E;
+    width: 540px;
+    height: 212px;
+    line-height: 1.4px;
+    position: relative;
+    margin-bottom: 99px ;
+}
+
+.bonus_card img {
+    width: 140px;
+    height: 107px;
+    position: absolute;
+    bottom: 53px;
+    right: 45px;
+}
+
+.store_card img {
+    width: 189px;
+    height: 100px;
+    position: absolute;
+    bottom: 56px;
+    right: 45px;
+}
+
+.bonus_card input {
+    border-radius: 30px;
+    color: #C4C4C4;
+    height: 35px;
+    border: none;
+    padding-left: 40px;
+    position: absolute;
+    left: 40px;
+    bottom: 35px;
+}
+
+.bonus_card h3, .store_card h3 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 35px 0 0 40px;
+    margin-bottom: 25px;
+}
+
+.bonus_card p, .store_card p {
+    font-family: 'robotoregular', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-left: 40px;
+    margin-bottom: 25px;
+    max-width: 200px;
+
+}
+
+.store_card a {
+    text-decoration: none;
+    font-family: 'robotoregular', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 9px 53px;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius:30px ;
+    position: absolute;
+    left: 40px;
+    bottom: 35px;
+
 }
