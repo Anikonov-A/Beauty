@@ -152,6 +152,7 @@
 .main_banner .container {
     max-width: 1110px;
     margin: auto;
+
 }
 
 .about_chair {
@@ -254,7 +255,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
+
 }
 
 .bonus_card, .store_card {
@@ -264,7 +266,7 @@
     height: 212px;
     line-height: 1.4px;
     position: relative;
-    margin-bottom: 99px ;
+
 }
 
 .bonus_card img {
@@ -326,9 +328,28 @@
     padding: 9px 53px;
     background: #F13C6E;
     border: 2px solid #FFFFFF;
-    border-radius:30px ;
+    border-radius: 30px;
     position: absolute;
     left: 40px;
     bottom: 35px;
 
+}
+.impuls_cards {
+    background-color: #E5E5E5;
+}
+
+.impuls_cards .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.impuls_card{
+    border: 1px solid #EFEFEF;
+    padding: 35px 65px 35px 60px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+
+.impuls_card:hover {
+    background-color: #F13C6E;
 }
