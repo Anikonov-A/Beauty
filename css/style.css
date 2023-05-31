@@ -292,6 +292,8 @@
     position: absolute;
     left: 40px;
     bottom: 35px;
+    target: none;
+
 }
 
 .bonus_card h3, .store_card h3 {
