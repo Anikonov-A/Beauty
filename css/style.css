@@ -368,15 +368,19 @@
     background-color: #FFFFFF;
 
 }
+.footer_catergories{
+    width: 255px;
 
+}
 .footer_catergories h4 {
     font-family: 'robotomedium', sans-serif;
     font-size: 16px;
     line-height: 140.62%;
     color: #000000;
-    padding-bottom: 30px;
+    padding:60px 30px 30px 0;
     border-bottom: 1px solid #EFEFEF;
-    max-width: 99px;
+    /*max-width: 99px;*/
+
 }
 
 .footer_category_list {
