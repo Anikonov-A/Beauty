@@ -205,7 +205,7 @@
 .chair_carts {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+
 
 }
 
@@ -334,6 +334,7 @@
     bottom: 35px;
 
 }
+
 .impuls_cards {
     background-color: #E5E5E5;
 }
@@ -342,7 +343,8 @@
     display: flex;
     flex-wrap: wrap;
 }
-.impuls_card{
+
+.impuls_card {
     border: 1px solid #EFEFEF;
     padding: 35px 65px 35px 60px;
     text-align: center;
@@ -352,4 +354,93 @@
 
 .impuls_card:hover {
     background-color: #F13C6E;
+}
+
+.footer {
+    background-color: #E5E5E5;
+    padding-top: 60px;
+}
+
+.footer_navigation {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #EFEFEF;
+    background-color: #FFFFFF;
+
+}
+
+.footer_catergories h4 {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000000;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EFEFEF;
+    max-width: 99px;
+}
+
+.footer_category_list {
+    font-family: 'robotoregular', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.middle_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    background-color: #FFFFFF;
+}
+
+.social_links img {
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+
+}
+
+.social_links a:nth-child(1) img {
+    padding: 15px 12px 14px 11px;
+    margin-right: 20px;
+}
+
+.social_links a:nth-child(2) img {
+    padding: 13px 18px 12px 17px;
+    margin-right: 20px;
+}
+
+.social_links a:nth-child(3) img {
+    padding: 12px 12px 11px 11px;
+    margin-right: 20px;
+
+}
+
+.footer_phone a {
+    text-decoration: none;
+    font-family: 'robotoregular', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.copyrights{
+    background: #EFEFEF;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.all_rights{
+    font-family: 'robotoregular', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+.privacy{
+    font-family: 'robotoregular', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #828282;
 }
